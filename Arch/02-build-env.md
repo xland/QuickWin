@@ -115,4 +115,4 @@ cmake -S . -B build -G "Ninja Multi-Config"
 | # | 事项 | 说明 |
 | --- | --- | --- |
 | P6 | `Src\main.cpp` 目前为空文件 | 子系统为 `Windows`，无 `wWinMain`/`WinMain` 会 LNK1561；等实现阶段写真实入口，非配置问题 |
-| P7 | 仓库无 `.gitignore` | 建议忽略 `Build\`、`packages\`、`*.user`、`.vs\` 等，避免构建产物入库 |
+| P7 | 仓库无 `.gitignore` | 已有 GitHub 官方 `VisualStudio.gitignore`（忽略 `.vs/`、`*.user`、`packages/`、`*.obj`/`*.pdb`/`*.tlog` 等）；已追加 `[Bb]uild/` 覆盖本项目输出目录 |

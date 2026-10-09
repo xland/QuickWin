@@ -426,3 +426,6 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# QuickWin 自定义构建输出（OutDir/IntDir）
+[Bb]uild/
