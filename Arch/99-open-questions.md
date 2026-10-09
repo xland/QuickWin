@@ -22,6 +22,7 @@
 | B7 | HTTP 模块底层选型：WinHTTP 还是 WinRT `Windows.Web.Http.HttpClient` | ⏳ |
 | B8 | WebView2 引入方式：NuGet 包 / 本地 SDK 目录；Evergreen 还是 Fixed Version | ✅ **已定**：NuGet packages.config + `Microsoft.Web.WebView2 1.0.4258.31`，loader 静态链接；Evergreen/Fixed 分发策略仍待定 |
 | B9 | 工程是否拆分多个子工程 | ✅ **已定**：单工程，工程文件在仓库根，源码统一放 `Src/` |
+| B10 | SQLite 在 JS 侧的接口形态（模块名、同步/异步、语句 API 设计） | ⏳ 用户已放入源码但尚未说明封装形态 |
 
 ## C. 工程配置遗留问题
 

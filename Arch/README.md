@@ -10,6 +10,7 @@
 | [01-overview.md](./01-overview.md) | 项目定位、目标与非目标 |
 | [02-build-env.md](./02-build-env.md) | 目录结构、依赖 SDK、工程配置、链接库、遗留问题 |
 | [03-module-scope.md](./03-module-scope.md) | 运行时模块清单与对标 Node.js 的范围 |
+| [04-sqlite.md](./04-sqlite.md) | SQLite 源码集成方式与编译要点 |
 | [99-open-questions.md](./99-open-questions.md) | 尚未确认、待用户补充的问题 |
 
 ## 记录状态

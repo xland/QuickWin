@@ -94,6 +94,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\main.cpp" />
+    <ClCompile Include="Src\SQLite\sqlite3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\SQLite\sqlite3.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
